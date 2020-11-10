@@ -46,6 +46,7 @@ const PieChart: React.FC = () => {
       <Typography align="center" color="textSecondary" gutterBottom>
         Motarity {motality.toFixed(2)} [%]
       </Typography>
+      {pieChart}
     </div>
   );
 };

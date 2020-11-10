@@ -3,7 +3,7 @@ import axios from 'axios'
 import { RootState } from '../../app/store'
 import dataDaily from './apiDataDaily.json'
 
-const apiUrl = "https://api.covid19api.com/total/country/"
+const apiUrl = "https://api.covid19api.com/total/country"
 
 // jsoファイルを読み込み型を設定する
 type DATADAILY = typeof dataDaily;
